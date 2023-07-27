@@ -1,5 +1,5 @@
 # Ender 3v2 Configuration files
-Configuration files for my heavily modified Ender 3v2 3D printer - Currently running MainsailOS and Klipper. This is an ongoing project I've been tweaking for a while now
+Configuration files for my heavily modified Ender 3v2 3D printer - Currently running MainsailOS and Klipper. This is an ongoing project I've been tweaking for a while now, I'm primarily documenting this for my own reference but other people may find some of the information presented here useful for configuring their own machine (particularly the printer.cfg configurations).
 
 ## Modifications
 This started life as a stock Ender kit but has since been heavily modded with the following:
@@ -16,3 +16,6 @@ This started life as a stock Ender kit but has since been heavily modded with th
 - All Metal Microswiss Hotend - a drop in replacement for the stock hotend, specifically replaced to counter the hotend to bowden tube gap in the stock hotend causing clogs.
 - Micro Swiss Direct Drive - for improved retraction responsiveness over a non-stock all metal bowden extruder, which itself replaced the original plastic bowden extruder which has a known design flaw.
 - Creality Dual Z Axis Upgrade - Installed to counteract z axis sag that was being exacerbated by the increased gantry.
+
+## Calibration
+I use the Teaching Tech [Calibration Guide](https://teachingtechyt.github.io/calibration.html), some adjustment must be made for Klipper specific GCode which at the time of writing the guide doesn't cover.
